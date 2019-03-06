@@ -4,20 +4,20 @@ class Dart < Formula
 
   version "2.2.0"
   if Hardware::CPU.is_64_bit?
-    url "https://storage.googleapis.com/dart-archive/channels/stable/release/2.2.0/sdk/dartsdk-macos-x64-release.zip"
+    url "https://storage.flutter-io.cn/dart-archive/channels/stable/release/2.2.0/sdk/dartsdk-macos-x64-release.zip"
     sha256 "9438afb49b69ac655882036c214e343232fdcd5af24607e6058e2def33261197"
   else
-    url "https://storage.googleapis.com/dart-archive/channels/stable/release/2.2.0/sdk/dartsdk-macos-ia32-release.zip"
+    url "https://storage.flutter-io.cn/dart-archive/channels/stable/release/2.2.0/sdk/dartsdk-macos-ia32-release.zip"
     sha256 "78a2da74ea83ee092463a9901467492ef885f6e378353b0a44481fdf40ea81c7"
   end
 
   devel do
     version "2.2.1-dev.0.0"
     if Hardware::CPU.is_64_bit?
-      url "https://storage.googleapis.com/dart-archive/channels/dev/release/2.2.1-dev.0.0/sdk/dartsdk-macos-x64-release.zip"
+      url "https://storage.flutter-io.cn/dart-archive/channels/dev/release/2.2.1-dev.0.0/sdk/dartsdk-macos-x64-release.zip"
       sha256 "655d18897c958419ddc13c9adff3050ae4325b2d106063021c54d8ae8c5240f2"
     else
-      url "https://storage.googleapis.com/dart-archive/channels/dev/release/2.2.1-dev.0.0/sdk/dartsdk-macos-ia32-release.zip"
+      url "https://storage.flutter-io.cn/dart-archive/channels/dev/release/2.2.1-dev.0.0/sdk/dartsdk-macos-ia32-release.zip"
       sha256 "877ffa90ce6ce4d458ce98d3f07fb200fdd2d9ea87278f71147e92fffcb868fb"
     end
   end
